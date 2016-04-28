@@ -11,7 +11,7 @@ function heap(_compare) {
 
   function compare(pos1, pos2) {
     if(_compare){
-      return _compare(hs,pos1,pos2);
+      return _compare(hs[pos1], hs[pos2]);
     }
     if (hs[pos1] === hs[pos2]) {
       return 0;

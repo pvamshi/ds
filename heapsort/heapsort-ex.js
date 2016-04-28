@@ -1,9 +1,9 @@
 var heapsort = require('./heapsort.js');
-var heap1 = heapsort.heap(function(hs,pos1,pos2) {
-  if (hs[pos1] === hs[pos2]) {
+var heap1 = heapsort.heap(function(a,b) {
+  if (a === b) {
     return 0;
   }
-  return hs[pos1] < hs[pos2] ? 1 : -1;
+  return a < b ? 1 : -1;
 });
 
 heap1.add(2);
