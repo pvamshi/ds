@@ -12,3 +12,8 @@ arr.heapPush(42);
 console.log(arr);
 console.log(arr.heapPop());
 console.log(arr);
+arr.pop();
+arr.pop();
+arr.pop();
+arr.pop();
+console.log(arr);
