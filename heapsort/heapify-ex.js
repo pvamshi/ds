@@ -5,7 +5,7 @@ var arr = [];
 arr.heapPush(2);
 arr.heapPush(25);
 arr.heapPush(12);
-arr.heapPush(28);
+  arr.heapPush(28);
 arr.heapPush(25);
 arr.heapPush(20);
 arr.heapPush(42);
